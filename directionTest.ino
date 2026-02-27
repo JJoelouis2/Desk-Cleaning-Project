@@ -91,7 +91,7 @@ void Right() {
   motor3.run(BACKWARD);
   motor4.run(BACKWARD);
 
-  delay(4000)
+  delay(4000);
 }
 
 void Left() {
@@ -100,5 +100,6 @@ void Left() {
   motor3.run(FORWARD);
   motor4.run(FORWARD);
 
-  delay(4000)
+  delay(4000);
+
 }
