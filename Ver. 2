@@ -18,7 +18,7 @@ float motor2AdjustmentFactor = 1.1;
 float motor3AdjustmentFactor = 1.7;
 float motor4AdjustmentFactor = 1.3;
 
-float floorGripFactor = 0.87
+float floorGripFactor = 0.9;
 
 // PER LOOP VARS =============================================================================================
 bool done = false;
