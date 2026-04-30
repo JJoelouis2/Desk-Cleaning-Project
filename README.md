@@ -2,7 +2,7 @@ Desk cleaning Project Overview
 
 Goal of Project: Create a robot that can clean a desk with the push of a button.
 
-Uses: Infrared sensors, Arduino Uno, TT motors, Mecanum Wheels
+Hardware: Infrared sensors, Arduino Uno, TT motors, Mecanum Wheels
 
 Description:
 This robot achieves its goal by tracking where has already been through storing
