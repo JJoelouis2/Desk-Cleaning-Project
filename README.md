@@ -13,4 +13,9 @@ cleaning extends mostly to dust as it uses pipe cleaners.
 To try out, or reupload the source code, download the ZIP file from the Ver 3. file, 
 and extract the ZIP within the Arduino IDE. From there, connect an Arduino microcontroller
 to your computer through a USB cable, and upload the code. Note: the Adafruit Motor Shield
-Library must be downlodaded onto the Arduino IDE to run the code.
+Library must be downlodaded onto the Arduino IDE to run the code 
+(https://github.com/adafruit/Adafruit_Motor-Shield-v1).
+
+External sources used for code:
+https://www.instructables.com/How-to-Use-the-IR-Obstacle-Avoidance-Sensor-on-Ard/
+https://www.w3schools.com/cpp/cpp_for_loop.asp
