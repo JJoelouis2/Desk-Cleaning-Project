@@ -353,6 +353,14 @@ void loop() {
         releaseAll();
       }
     }
+
+    // End condition(s)
+    elif (regionCount >= maxRegionCount) {
+      Serial.println("REGION EXCEEDED");
+      done = true;
+      releaseAll();
+    }
+
     // Condition Checks
     if (!surfaceBelowVar) { // Changed from else if to if, because it needs to check even if the region count is larger than 3
       // Turn
