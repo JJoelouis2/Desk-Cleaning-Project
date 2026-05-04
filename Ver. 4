@@ -1,5 +1,5 @@
 // ========================= DEFINE MOTORS AND SENSORS =========================
-#define FaceDownIR A2
+#define FaceDownIR A4
 #define FaceForwardIR A5
 
 #include <AFMotor.h>
