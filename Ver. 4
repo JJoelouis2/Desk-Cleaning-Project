@@ -342,12 +342,12 @@ void loop() {
     surfaceBelowVar = isSurfaceBeneath();
 
     // End condition(s)
-    if (regionCount >= 3) { // Prevents error when regio count is less than 3
+    if (regionCount >= 3) { // Prevents error when region count is less than 3
       unsigned long TravelTime1 = regions[regionCount - 1].time; //Last travel time
       unsigned long TravelTime2 = regions[regionCount - 2].time; //Second last travel time
       unsigned long TravelTime3 = regions[regionCount - 3].time; //Third last travel time
 
-      if ((TravelTime1 && TravelTime2 && TravelTime3) <= 3) { //Checks if all last times is smaller than 3
+      if (TravelTime1 <= 3 && TravelTime2 <= 3 && TravelTime3 <= 3) { //Checks if all last times is smaller than 3
         Serial.println("END CONDITION reached");
         done = true;
         releaseAll();
@@ -355,7 +355,7 @@ void loop() {
     }
 
     // End condition(s)
-    elif (regionCount >= maxRegionCount) {
+    else if (regionCount >= maxRegionCount) {
       Serial.println("REGION EXCEEDED");
       done = true;
       releaseAll();
