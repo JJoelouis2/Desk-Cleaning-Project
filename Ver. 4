@@ -364,6 +364,8 @@ void loop() {
     // Condition Checks
     if (!surfaceBelowVar) { // Changed from else if to if, because it needs to check even if the region count is larger than 3
       // Turn
+      Serial.println(regionCount);
+
       releaseAll();
       logPosition();
       turn(-90, true);
@@ -426,5 +428,9 @@ void loop() {
         }
       }
     }
+  }
+
+  else {
+    releaseAll();
   }
 }
