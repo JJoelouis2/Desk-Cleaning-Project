@@ -385,7 +385,7 @@ void loop() {
     }
 
     else {
-      // Set currentX ad currentY amd then check intersection
+      // Set currentX and currentY and then check intersection
 
       // Debounce so this computation is only performed once every 100ms
       unsigned long currentTime = millis();
