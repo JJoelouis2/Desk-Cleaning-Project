@@ -10,7 +10,7 @@ the time travelled in certain directions. Although the robot has capabilities to
 turn any amount, for this project, it only turns LEFT and 90 DEGREES. The 
 cleaning extends mostly to dust as it uses pipe cleaners. 
 
-To try out, or reupload the source code, download the ZIP file from the Ver 3. file, 
+To try out, or reupload the source code, download the ZIP file from the Ver 4. file, 
 and extract the ZIP within the Arduino IDE. From there, connect an Arduino microcontroller
 to your computer through a USB cable, and upload the code. Note: the Adafruit Motor Shield
 Library must be downlodaded onto the Arduino IDE to run the code 
